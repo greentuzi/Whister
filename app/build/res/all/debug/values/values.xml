@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -209,7 +209,7 @@
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
         <attr name="textAllCaps" format="reference|boolean" />
     </declare-styleable>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/build/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/build/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="GridLayout">
@@ -395,7 +395,7 @@
             <flag name="end" value="0x00800005" />
         </attr>
     </declare-styleable>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="LinearLayoutICS">
@@ -697,16 +697,16 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/build/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/build/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="default_gap">16dip</dimen>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
@@ -735,7 +735,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Settings</string>
@@ -748,13 +748,13 @@
     <string name="title_activity_impression_wall">ImpressionWall</string>
     <string name="title_activity_photo_intent">PhotoIntent</string>
     <string name="title_activity_portfolio">Portfolio</string>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whiter/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Whister/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
