@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:background="#ff000000"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:text="@string/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="#ff000000"
+        android:textColor="#ffffffff" />
+
+
+    <ImageView android:id="@+id/imgfilter"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clickable="false"
+        android:focusable="false" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        android:orientation="vertical">
+        <Gallery
+            android:id="@+id/galleryFilter"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:spacing="2px"
+            android:visibility="visible"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题:"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/editText01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_weight="2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e0000000">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/runtime"
+            android:text="图片渲染中......"
+            android:singleLine="true"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:visibility="visible"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4">
+        <ImageButton
+            android:id="@+id/ok"
+            android:gravity="bottom"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/login_button"/>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

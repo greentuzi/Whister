@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whister</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_impression_wall">ImpressionWall</string>
+    <string name="title">狂奔的力量，是青春的承诺，更是生命。</string>
+    <string name="slogan">用作品说话</string>
+    <string name="nickname">BowinShan</string>
+    <string name="data">2014/3/15</string>
+    <string name="title_activity_portfolio">Portfolio</string>
+    <string name="title_activity_photo_intent">PhotoIntent</string>
+    <string name="takePhoto">Take</string>
+    <string name="btnIntend">Take Picture</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+    <string name="title_activity_image_filter">ImageFilter</string>
+    <string name="title_activity_user_login">UserLogin</string>
+    <string name="title_activity_signin">Signin</string>
+
+</resources>
