@@ -1,0 +1,5 @@
+create table user(uid int auto_increment primary key , userID varchar(50) unique, password text, nickname text, sex boolean, signiture text, portrait blob) charset = utf8;
+
+create table picture(pid int auto_increment primary key, large mediumblob, small blob, picIntro text, picFavor int default 0, submitter int, date date, foreign key (submitter) references user(uid) on delete cascade on update cascade) charset = utf8;
+
+create table favor(pid int, uid int, foreign key (pid) references picture(pid) on delete cascade on update cascade, foreign key (uid) references user(uid) on delete cascade on update cascade) charset = utf8;
