@@ -18,5 +18,8 @@
     <string name="title_activity_image_filter">ImageFilter</string>
     <string name="title_activity_user_login">UserLogin</string>
     <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_likelist">Likelist</string>
+    <string name="title_activity_view_image">ViewImage</string>
+    <string name="title_activity_personal_information">PersonalInformation</string>
 
 </resources>

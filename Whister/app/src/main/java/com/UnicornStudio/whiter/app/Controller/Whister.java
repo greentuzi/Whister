@@ -87,7 +87,7 @@ public class Whister extends ActionBarActivity {
                 }
                 User.getInstance().setUid(n);
                 User.getInstance().ID = id;
-                Intent intent = new Intent();
+                //Intent intent = new Intent();
                 intent.setClass(Whister.this,ImpressionWall.class);
                 startActivity(intent);
             }
