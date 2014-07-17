@@ -26,8 +26,8 @@ public class SocketClient {
 
      public static SocketClient getInstance(){
          if(singleton == null)
-             singleton = new SocketClient("172.18.159.243",80);
-    //     ;
+             singleton = new SocketClient("127.0.0.1",80);
+         
          return singleton;
      }
     public static JSONObject getJSON(){
